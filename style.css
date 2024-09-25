@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&family=Roboto+Mono:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,400;1,200&family=Raleway:wght@300&family=Roboto+Mono:wght@200&display=swap');
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(0, 0, 0)
+}
+
+#nav {
+    font-family: lato, sans-serif;
+    height: 60px;
+    width: 100%;
+    text-align: center
+}
+
+#navigation {
+    font-family: pt sans narrow, sans-serif;
+    float: left;
+    line-height: 100%;
+    padding: 0;
+    margin: 0
+}
+
+#navigation1 li {
+    font-family: pt sans narrow, sans-serif;
+    float: left;
+    line-height: 100%;
+    padding: 0;
+    margin: 0
+}
+
+#navigation li {
+    list-style-type: none;
+    height: 40px;
+    margin-right: 50px;
+    line-height: 40px;
+    padding: 5px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    display: inline;
+    float: left;
+    transition: .5s
+}
+
+#con {
+    height: 720px;
+    text-align: center;
+    width:70%;
+    background-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-color: #111;
+    border-width: 5px;
+    margin: 50px auto;
+    padding-bottom: 2.2vmax;
+}
+
+#btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    padding: 3px 0;
+    height: auto;
+}
+
+#btns span {
+    color: white;
+    cursor: pointer !important;
+    font-size: 1.4vmax;
+    font-family: 'Nunito', sans-serif;
+    background-image: linear-gradient(to right, rgb(202, 202, 202) ,rgb(145, 145, 145), transparent);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    transition: 100ms ease-in;
+}
+#btns span:hover {
+    color: rgb(233, 0, 0);
+    background-size: 100% 2px;
+}
+
+#content {
+    width: 100%;
+    height: 720px;
+}
+
+a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: rgb(232, 236, 21);
+    text-decoration: none
+}
+
+iframe {
+    height: 100%;
+    width: 100%;
+    border: 0
+}
+
+iframe video {
+    height: 100%;
+    width: 100%
+}
+
+#rk {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+@media only screen and (max-width:1850px) {
+    #con {
+        width: 95%
+    }
+
+    #film {
+        width: calc(100% - 100px)
+    }
+
+    #chat {
+        width: 300px !important
+    }
+}
+
+@media only screen and (max-width:1260px) {
+    .menu_content {
+        display: none;
+        font-size: 20px
+    }
+
+    #navigation li {
+        width: 50px
+    }
+
+    #film,
+    #chat {
+        clear: both
+    }
+
+    #film {
+        width: 100% !important;
+        height: 400px !important
+    }
+
+    #chat {
+        width: 100% !important;
+        margin: auto;
+        height: 500px !important
+    }
+
+    #con {
+        height: 900px;
+        flex-direction: column;
+    }
+}
+
+#film,
+#chat {
+    float: left;
+    color: #fff
+}
+
+#film {
+    height: 100%;
+    width: calc(100% - 300px);
+    background-color: #000
+}
+
+#chat {
+    height: 100%;
+    width: auto;
+    background-color: #000
+}
+
+#footer {
+    font-family: pt sans narrow, sans-serif;
+    height: 10px;
+    width: 350px;
+    text-align: center;
+    margin: auto
+}
+
+center {
+    height: fit-content;
+    width: auto;
+}
+
+center a {
+    width: fit-content;
+    font-size: 1.2vmax;
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-image: linear-gradient(to right, gray, grey);
+    transition: 200ms ease-out;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+center a:hover {
+    background-size: 100% 2px;
+    color: rgb(177, 177, 177);
+}
+
+::-webkit-scrollbar {
+    width: 10px
+}
+
+::-webkit-scrollbar-track {
+    background: #aaa
+}
+
+::-webkit-scrollbar-thumb {
+    background: #333;
+    border-radius: 5px
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555
+}
+h1{
+    margin:0;
+}
+h1, p, footer{
+    background: black;
+    color: white;
+    text-align: center;
+}
+footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    height: 30px;
+}
+page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+content-wrap {
+  padding-bottom: 2.5rem;    /* Footer height */
+}
