@@ -4,7 +4,7 @@ let file2 = document.getElementById("file2");
 let file3 = document.getElementById("file3");
 let file4 = document.getElementById("file4");
 let iframe1 = document.createElement("iframe");
-srcUrl = "file1"; //tu pierwsze video
+srcUrl = "1.html"; //tu pierwsze video
 iframe1.src = srcUrl;
 iframe1.id = "";
 iframe1.style = 'width="auto" height="auto" frameborder="0" scrolling="no" autoplay="" overflow-y: hidden; overflow-x: hidden;';
